@@ -159,7 +159,19 @@
             "icon": "🎥",
             "date": "2026-01-11",
             "description": "Produire une scène théâtrale accompagnée de contenus vidéo et supports pour diffusion.",
-            "format": "Vidéo + PDF"
+            "format": "Vidéo + PDF",
+            "attachments": [
+                {
+                    "title": "Document de cadrage",
+                    "name": "sae104.pdf",
+                    "url": "https://mmi.codes/docs/sae104.pdf"
+                },
+                {
+                    "title": "Consignes du générique",
+                    "name": "sae104_generique.pdf",
+                    "url": "https://mmi.codes/docs/sae104_generique.pdf"
+                }
+            ]
         },
         {
             "id": "ds_benamor",
