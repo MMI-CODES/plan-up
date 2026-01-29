@@ -222,6 +222,40 @@
             "date": "2025-01-16",
             "description": "Faire un décor de jeu vidéo en axonométrie et le numériser sur Photoshop",
             "format": "JPEG"
+        },
+        {
+            "id": "logo",
+            "module": "R 2.08",
+            "category": "Graphisme",
+            "title": "Logo",
+            "icon": "✒️",
+            "date": "unknown",
+            "description": "Le logo sera constitué: d’une typo, d’un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
+            "format": "PDF (+ image)"
+        },
+        {
+            "id": "bots",
+            "module": "R 2.09",
+            "category": "Culture Artistique",
+            "title": "Robots en typographie",
+            "icon": "🤖",
+            "date": "unknown",
+            "description": "Le logo sera constitué: d’une typo, d’un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
+            "format": "PDF (+ image)",
+            "attachments": [
+                {
+                    "title": "FIchier Ressource",
+                    "name": "ressource_tp_indesign.pdf",
+                    "url": "https://drive.google.com/file/d/1R3j22MFOfSMlrYQeeMCc3TVkmoPnE345/view",
+                    "download": false
+                },
+                {
+                    "title": "Document de cadrage",
+                    "name": "tp6_indesign.pdf",
+                    "url": "https://drive.google.com/file/d/1epCpoRxpGI2_BH5Tfsf7JGQLS4z2n9SD/view",
+                    "download": false
+                }
+            ]
         }
     ]
 }
