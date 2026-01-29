@@ -225,7 +225,7 @@
         },
         {
             "id": "logo",
-            "module": "R 2.08",
+            "module": "R208",
             "category": "Graphisme",
             "title": "Logo",
             "icon": "✒️",
@@ -235,7 +235,7 @@
         },
         {
             "id": "bots",
-            "module": "R 2.09",
+            "module": "R209",
             "category": "Culture Artistique",
             "title": "Robots en typographie",
             "icon": "🤖",
