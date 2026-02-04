@@ -75,7 +75,7 @@
             "id": "mkt_company",
             "module": "SAE 1.02",
             "category": "Marketing",
-            "title": "Projet d’entreprise à rendre",
+            "title": "Projet d'entreprise à rendre",
             "icon": "📈",
             "date": "2025-11-17",
             "description": "Dossier complet présentant l'idée d'entreprise et sa stratégie marketing.",
@@ -135,7 +135,7 @@
             "id": "ppp_interview",
             "module": "R 1.17",
             "category": "P.P.P",
-            "title": "Interview d’un professionnel",
+            "title": "Interview d'un professionnel",
             "icon": "💼",
             "date": "2026-01-11",
             "description": "Réaliser et analyser une interview avec un professionnel du secteur.",
@@ -164,12 +164,14 @@
                 {
                     "title": "Document de cadrage",
                     "name": "sae104.pdf",
-                    "url": "https://mmi.codes/docs/sae104.pdf"
+                    "url": "https://mmi.codes/docs/sae104.pdf",
+                    "download": true
                 },
                 {
                     "title": "Consignes du générique",
                     "name": "sae104_generique.pdf",
-                    "url": "https://mmi.codes/docs/sae104_generique.pdf"
+                    "url": "https://mmi.codes/docs/sae104_generique.pdf",
+                    "download": true
                 }
             ]
         },
@@ -227,11 +229,11 @@
             "id": "logo",
             "module": "R208",
             "category": "Graphisme",
-            "title": "Logo",
+            "title": "Logo [date indicative]",
             "icon": "✒️",
-            "date": "unknown",
-            "description": "Le logo sera constitué: d’une typo, d’un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
-            "format": "PDF (+ image)"
+            "date": "2026-02-09",
+            "description": "Le logo sera constitué: d'une typo, d'un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
+            "format": "PDF A4 Paysage"
         },
         {
             "id": "bots",
@@ -239,12 +241,12 @@
             "category": "Culture Artistique",
             "title": "Robots en typographie",
             "icon": "🤖",
-            "date": "unknown",
-            "description": "Le logo sera constitué: d’une typo, d’un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
-            "format": "PDF (+ image)",
+            "date": "2026-02-03",
+            "description": "Le logo sera constitué: d'une typo, d'un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
+            "format": "PDF",
             "attachments": [
                 {
-                    "title": "FIchier Ressource",
+                    "title": "Fichier ressource",
                     "name": "ressource_tp_indesign.pdf",
                     "url": "https://drive.google.com/file/d/1R3j22MFOfSMlrYQeeMCc3TVkmoPnE345/view",
                     "download": false
@@ -256,6 +258,64 @@
                     "download": false
                 }
             ]
+        },
+        {
+            "id": "festival_R205",
+            "module": "R205",
+            "category": "Stratégie de communication",
+            "title": "Communication d'un festival",
+            "icon": "🎪",
+            "date": "2026-02-05",
+            "description": "Choisir un festival dont la communication est bancale, puis proposer une nouvelle stratégie de communication complète pour ce festival.",
+            "format": "PDF + Oral",
+            "attachments": [
+                {
+                    "title": "Document de cadrage (NON OFFICIEL)",
+                    "name": "ressource_strat_comm.pdf",
+                    "url": "https://drive.google.com/file/d/1rTWrMbPW1sQ75LGfTIftKp-NbfXs-OVD/view?usp=sharing",
+                    "download": false
+                }
+            ]
+        },
+        {
+            "id": "lepage_ia",
+            "module": "R201",
+            "category": "Anglais LV1",
+            "title": "Oral d'anglais [date indicative]",
+            "icon": "🇬🇧",
+            "date": "2026-02-09",
+            "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
+            "format": "Oral"
+        },
+        {
+            "id": "ds_R215",
+            "module": "R215",
+            "category": "Hébergement",
+            "title": "DS d'Hébergement",
+            "icon": "💻",
+            "date": "2026-02-16",
+            "description": "DS sur le protocole DHCP, adresses IP et masques, binaire <-> hexadécimal...",
+            "format": "DS"
+        },
+        {
+            "id": "ds_R203",
+            "module": "R203",
+            "category": "Ergonomie et accessibilité",
+            "title": "DS d'Ergonomie et accessibilité",
+            "icon": "🦻",
+            "date": "2026-02-20",
+            "description": "DS sur les notions d'ergonomie et d'accessibilité web vues en cours.",
+            "format": "DS"
+        },
+        {
+            "id": "ds_R204",
+            "module": "R204",
+            "category": "Culture numérique",
+            "title": "DS de Culture numérique",
+            "icon": "🛰️",
+            "date": "2026-02-20",
+            "description": "DS sur les fake news, l'expression numérique, le piège des réseaux sociaux, etc.",
+            "format": "DS"
         }
     ]
 }

@@ -31,7 +31,7 @@
 
 		tasks.value = all.value.filter(task => {
 			let matches = settings.filter === 'all' || task[settings.filter] === settings.filterValue;
-			return (matches && new Date(task.date) >= new Date());
+			return (matches && (task.date == 'unknown' || new Date(task.date) >= new Date()));
 		});
 	}, { deep: true });
 
@@ -43,7 +43,7 @@
 			tasks.value = data.projects.filter(task => {
 				// use reactive `settings` (defined below) for consistent access
 				let matches = settings.filter === 'all' || task[settings.filter] === settings.filterValue;
-				return (matches && new Date(task.date) >= new Date());
+				return (matches && (task.date == 'unknown' || new Date(task.date) >= new Date()));
 			});
 		})
 		.catch(err => console.error('Failed to load tasks.json', err));
