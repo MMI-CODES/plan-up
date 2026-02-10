@@ -265,7 +265,7 @@
             "category": "Stratégie de communication",
             "title": "Communication d'un festival",
             "icon": "🎪",
-            "date": "2026-02-05",
+            "date": "2026-03-11",
             "description": "Choisir un festival dont la communication est bancale, puis proposer une nouvelle stratégie de communication complète pour ce festival.",
             "format": "PDF + Oral",
             "attachments": [
@@ -281,9 +281,9 @@
             "id": "lepage_ia",
             "module": "R201",
             "category": "Anglais LV1",
-            "title": "Oral d'anglais [date indicative]",
+            "title": "Oral d'anglais [date différente selon groupe]",
             "icon": "🇬🇧",
-            "date": "2026-02-09",
+            "date": "2026-02-23",
             "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
             "format": "Oral"
         },
@@ -293,7 +293,7 @@
             "category": "Hébergement",
             "title": "DS d'Hébergement",
             "icon": "💻",
-            "date": "2026-02-16",
+            "date": "2026-02-18",
             "description": "DS sur le protocole DHCP, adresses IP et masques, binaire <-> hexadécimal...",
             "format": "DS"
         },
@@ -315,6 +315,26 @@
             "icon": "🛰️",
             "date": "2026-02-20",
             "description": "DS sur les fake news, l'expression numérique, le piège des réseaux sociaux, etc.",
+            "format": "DS"
+        },
+        {
+            "id": "ds_R212",
+            "module": "R212",
+            "category": "Intégration",
+            "title": "DS d'intégration",
+            "icon": "💻",
+            "date": "2026-03-02",
+            "description": "DS sur JQuery + CSS Grid",
+            "format": "DS"
+        },
+        {
+            "id": "ds_Portfolio",
+            "module": "Portfolio",
+            "category": "Portfolio",
+            "title": "DS de Portfolio",
+            "icon": "",🪶
+            "date": "2026-03-19",
+            "description": "Détails à venir...",
             "format": "DS"
         }
     ]
