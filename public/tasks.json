@@ -231,7 +231,7 @@
             "category": "Graphisme",
             "title": "Logo [date indicative]",
             "icon": "✒️",
-            "date": "2026-02-09",
+            "date": "2026-02-20",
             "description": "Le logo sera constitué: d'une typo, d'un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
             "format": "PDF A4 Paysage"
         },
@@ -323,8 +323,8 @@
             "category": "Intégration",
             "title": "DS d'intégration",
             "icon": "💻",
-            "date": "2026-03-02",
-            "description": "DS sur JQuery + CSS Grid",
+            "date": "2026-02-16",
+            "description": "DS sur JQuery + CSS Grid (date différente selon le groupe)",
             "format": "DS"
         },
         {
