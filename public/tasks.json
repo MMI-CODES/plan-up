@@ -324,8 +324,88 @@
             "title": "DS d'intégration",
             "icon": "💻",
             "date": "2026-02-16",
-            "description": "DS sur JQuery + CSS Grid (date différente selon le groupe)",
+            "description": "DS sur JQuery (date différente selon le groupe)",
             "format": "DS"
+        },
+        {
+            "id": "ds_R212_P2",
+            "module": "R212",
+            "category": "Intégration",
+            "title": "DS d'intégration (avec CSS grid)",
+            "icon": "💻",
+            "date": "2026-03-09",
+            "description": "Partie 2 du DS sur JQuery (+ CSS Grid)",
+            "format": "DS"
+        },
+        {
+            "id": "oral_COLOMB_P3_A2B2",
+            "module": "R206",
+            "category": "Expr. Comm",
+            "title": "Évènement marquant [A2 / B2]",
+            "icon": "🗣️",
+            "date": "2026-03-09",
+            "description": "Présentez un événement marquant qui a provoqué un changement dans votre vision du monde. Cet événement peut être réel ou imaginaire, mais il doit montrer clairement comment votre perception du monde a évolué.",
+            "format": "Oral (~3min)"
+        },
+        {
+            "id": "oral_lepage_A1B1",
+            "module": "R201",
+            "category": "Anglais",
+            "title": "Oral sur l'IA [A1 / B1]",
+            "icon": "🤖",
+            "date": "2026-03-10",
+            "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
+            "format": "Oral"
+        },
+        {
+            "id": "oral_COLOMB_P3_A1B1",
+            "module": "R206",
+            "category": "Expr. Comm",
+            "title": "Évènement marquant [A1 / B1]",
+            "icon": "🗣️",
+            "date": "2026-03-11",
+            "description": "Présentez un événement marquant qui a provoqué un changement dans votre vision du monde. Cet événement peut être réel ou imaginaire, mais il doit montrer clairement comment votre perception du monde a évolué.",
+            "format": "Oral (~3min)"
+        },
+        {
+            "id": "oral_lepage_A2B2",
+            "module": "R201",
+            "category": "Anglais",
+            "title": "Oral sur l'IA [A2 / B2]",
+            "icon": "🤖",
+            "date": "2026-03-16",
+            "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
+            "format": "Oral"
+        },
+        {
+            "id": "ds_lepage",
+            "module": "R202",
+            "category": "Anglais",
+            "title": "Évaluation d'anglais",
+            "icon": "🤖",
+            "date": "2026-03-16",
+            "description": "Détails à venir...",
+            "format": "DS"
+        },
+        {
+            "id": "rapport_ergo",
+            "module": "R203",
+            "category": "Ergonomie & Accessibilité",
+            "title": "Rapport d'Ergonomie",
+            "icon": "🦻",
+            "date": "2026-04-30",
+            "description": "Faites l'audit de 3 sites initialement d'un point de vue utilisateur puis en intégrant les notions d'ergonomie vues en cours.",
+            "format": "PDF"
+        },
+        {
+            "id": "charte_graphique",
+            "module": "R208",
+            "category": "Graphisme",
+            "title": "Charte Graphique",
+            "icon": "🦻",
+            "date": "unknown",
+            "description": "Faites une charte graphique à partir de la marque que vous avez créée lors des premières séances du module.",
+            "format": "PDF A4 Paysage"
         },
         {
             "id": "ds_Portfolio",
