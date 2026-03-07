@@ -5,7 +5,10 @@
 	import Task from '../components/Task.vue'
 
 	import { ref, computed, watch, reactive, onMounted } from 'vue';
+	import { useRoute } from 'vue-router';
 
+	const route = useRoute();
+	const filterGroup = ref(route.query.group || 'all');
 
 	const modules = ref([]);
 
@@ -31,7 +34,8 @@
 
 		tasks.value = all.value.filter(task => {
 			let matches = settings.filter === 'all' || task[settings.filter] === settings.filterValue;
-			return (matches && (task.date == 'unknown' || new Date(task.date) >= new Date()));
+			let matchesGroups = !task.groups || task.groups.length === 0 || task.groups.includes(filterGroup.value) || filterGroup.value === 'all';
+			return (matches && matchesGroups && (task.date == 'unknown' || new Date(task.date) >= new Date()));
 		});
 	}, { deep: true });
 
@@ -43,7 +47,8 @@
 			tasks.value = data.projects.filter(task => {
 				// use reactive `settings` (defined below) for consistent access
 				let matches = settings.filter === 'all' || task[settings.filter] === settings.filterValue;
-				return (matches && (task.date == 'unknown' || new Date(task.date) >= new Date()));
+				let matchesGroups = !task.groups || task.groups.length === 0 || task.groups.includes(filterGroup.value) || filterGroup.value === 'all';
+				return (matches && matchesGroups && (task.date == 'unknown' || new Date(task.date) >= new Date()));
 			});
 		})
 		.catch(err => console.error('Failed to load tasks.json', err));
@@ -76,12 +81,29 @@
 			settings.filterValue = params.get('module')
 		}
 	})
+
+	watch(filterGroup, (newGroup) => {
+		const params = new URLSearchParams(window.location.search);
+		if (newGroup === 'all') {
+			params.delete('group');
+		} else {
+			params.set('group', newGroup);
+		}
+		window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
+
+		tasks.value = all.value.filter(task => {
+			// use reactive `settings` (defined below) for consistent access
+			let matches = settings.filter === 'all' || task[settings.filter] === settings.filterValue;
+			let matchesGroups = !task.groups || task.groups.length === 0 || task.groups.includes(filterGroup.value) || filterGroup.value === 'all';
+			return (matches && matchesGroups && (task.date == 'unknown' || new Date(task.date) >= new Date()));
+		});
+	}, { immediate: true });
 </script>
 <template>
 	<header class="xl:w-3/4 xl:mx-auto">
 		<h1 class="bg-linear-to-br from-indigo-700 to-purple-700 bg-clip-text text-transparent text-5xl text-center font-black w-fit mx-auto">Plan-Up MMI</h1>
 		<div class="text-center text-sm text-zinc-500">Gérez vos tâches et projets facilement</div>
-		<div class="flex mt-4 text-center text-sm max-sm:overflow-x-scroll">
+		<div class="flex mt-4 gap-2 text-center text-sm max-sm:overflow-x-scroll">
 			<div class="shrink-0 flex bg-zinc-100 text-sm rounded-xl w-fit p-1 overflow-hidden dark:bg-zinc-900">
 				<button
 					@click="settings.viewMode = 'list'"
@@ -102,6 +124,43 @@
 				<p>
 					<a @click="settings.filter = 'all'; settings.filterValue = ''" class="cursor-pointer text-indigo-500">Réinitialiser</a>
 				</p>
+			</div>
+			<div class="flex bg-zinc-100 rounded-full p-1 dark:bg-zinc-900">
+				<button
+					@click="filterGroup = 'all'"
+					:class="filterGroup == 'all' ? 'bg-indigo-500/10 text-indigo-500' : 'bg-transparent text-zinc-500'"
+					class="cursor-pointer text-sm rounded-full px-2 py-1 font-medium"
+				>
+					Tous
+				</button>
+				<button
+					@click="filterGroup = 'A1'"
+					:class="filterGroup == 'A1' ? 'bg-indigo-500/10 text-indigo-500' : 'bg-transparent text-zinc-500'"
+					class="cursor-pointer text-sm rounded-full px-2 py-1 font-medium"
+				>
+					A1
+				</button>
+				<button
+					@click="filterGroup = 'A2'"
+					:class="filterGroup == 'A2' ? 'bg-indigo-500/10 text-indigo-500' : 'bg-transparent text-zinc-500'"
+					class="cursor-pointer text-sm rounded-full px-2 py-1 font-medium"
+				>
+					A2
+				</button>
+				<button
+					@click="filterGroup = 'B1'"
+					:class="filterGroup == 'B1' ? 'bg-indigo-500/10 text-indigo-500' : 'bg-transparent text-zinc-500'"
+					class="cursor-pointer text-sm rounded-full px-2 py-1 font-medium"
+				>
+					B1
+				</button>
+				<button
+					@click="filterGroup = 'B2'"
+					:class="filterGroup == 'B2' ? 'bg-indigo-500/10 text-indigo-500' : 'bg-transparent text-zinc-500'"
+					class="cursor-pointer text-sm rounded-full px-2 py-1 font-medium"
+				>
+					B2
+				</button>
 			</div>
 			<div class="grow"></div>
 			<div class="shrink-0 flex items-center text-sm w-fit gap-2 overflow-hidden">

@@ -8,7 +8,8 @@
             "icon": "🎨",
             "date": "2025-10-24",
             "description": "Compléter le moodboard avec références et couleurs finales.",
-            "format": "JPEG, PNG ou PDF"
+            "format": "JPEG, PNG ou PDF",
+            "groups": []
         },
         {
             "id": "sae105",
@@ -19,7 +20,8 @@
             "date": "2025-11-02",
             "time": "23:59",
             "description": "Intégration d'un CV responsive en HTML/CSS, livrable sur la plateforme.",
-            "format": "Site web"
+            "format": "Site web",
+            "groups": []
         },
         {
             "id": "html_ds",
@@ -29,7 +31,8 @@
             "icon": "✍️",
             "date": "2025-11-03",
             "description": "Contrôle écrit portant sur les bonnes pratiques d'intégration et sémantique HTML/CSS.",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "english_ds",
@@ -39,7 +42,8 @@
             "icon": "🇬🇧",
             "date": "2025-11-03",
             "description": "Évaluation des compétences orales et écrites (compréhension et expression).",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "gp_pub",
@@ -49,7 +53,8 @@
             "icon": "📊",
             "date": "2025-11-09",
             "description": "Réaliser une proposition de campagne publicitaire et son planning.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "ppp_group",
@@ -59,7 +64,8 @@
             "icon": "📂",
             "date": "2025-11-11",
             "description": "Soumission du dossier de projet collectif (documents et livrables).",
-            "format": "PDF"
+            "format": "PDF",
+            "groups": []
         },
         {
             "id": "ppp_pres",
@@ -69,7 +75,8 @@
             "icon": "🎤",
             "date": "2025-11-13",
             "description": "Exposé oral du projet devant le jury, support visuel obligatoire.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "mkt_company",
@@ -79,7 +86,8 @@
             "icon": "📈",
             "date": "2025-11-17",
             "description": "Dossier complet présentant l'idée d'entreprise et sa stratégie marketing.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "pinoza_oral",
@@ -89,7 +97,8 @@
             "icon": "🎨",
             "date": "2025-12-02",
             "description": "(A1 et B1: 26/11) Présenter une œuvre choisie.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "clech_vecteurs",
@@ -99,7 +108,8 @@
             "icon": "✒️",
             "date": "2025-11-30",
             "description": "Créer une feuille de travail vectorielle avec plusieurs branches thématiques.",
-            "format": "JPEG"
+            "format": "JPEG",
+            "groups": []
         },
         {
             "id": "reyss_analyse",
@@ -109,7 +119,8 @@
             "icon": "🗣️",
             "date": "2025-11-27",
             "description": "Analyse et présentation des recommandations numériques préparées pour le cours.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "fournerie_ds",
@@ -119,7 +130,8 @@
             "icon": "💻",
             "date": "2025-12-18",
             "description": "Contrôle sur les notions d'hébergement et déploiement.",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "comm_ds",
@@ -129,7 +141,8 @@
             "icon": "🗣️",
             "date": "2025-12-09",
             "description": "Épreuve écrite sur les techniques et pratiques de communication.",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "ppp_interview",
@@ -139,7 +152,8 @@
             "icon": "💼",
             "date": "2026-01-11",
             "description": "Réaliser et analyser une interview avec un professionnel du secteur.",
-            "format": "?"
+            "format": "PDF",
+            "groups": []
         },
         {
             "id": "ppp_oral",
@@ -149,7 +163,8 @@
             "icon": "🎤",
             "date": "2025-11-13",
             "description": "Session orale finale du PPP, préparation à l'oral et aux questions.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "sae_wablomingrat",
@@ -173,7 +188,8 @@
                     "url": "https://mmi.codes/docs/sae104_generique.pdf",
                     "download": true
                 }
-            ]
+            ],
+            "groups": []
         },
         {
             "id": "ds_benamor",
@@ -183,7 +199,8 @@
             "icon": "📆",
             "date": "2025-12-11",
             "description": "DS sur les principales notions de gestion de projet vues en cours",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "expo_pino",
@@ -193,7 +210,8 @@
             "icon": "🖼️",
             "date": "2025-12-16",
             "description": "Présenter une œuvre choisie lors de la sortie du 21 novembre.",
-            "format": "PDF ou diapo"
+            "format": "PDF ou diapo",
+            "groups": []
         },
         {
             "id": "analyse_pino",
@@ -203,7 +221,8 @@
             "icon": "🖼️",
             "date": "2025-12-25",
             "description": "Analyser une oeuvre connue et la réinterprêter en changeant la technique (passer de peinture à photographie, encre, bouchons recyclés, kaplas...)",
-            "format": "PDF + votre oeuvre"
+            "format": "PDF + votre oeuvre",
+            "groups": []
         },
         {
             "id": "jeu_js",
@@ -213,7 +232,8 @@
             "icon": "🎮",
             "date": "2026-01-10",
             "description": "Faire un jeu Mario en Javascript où l'on peut se déplacer avec le clavier, ramasser une pièce, etc.",
-            "format": "Site web"
+            "format": "Site web",
+            "groups": []
         },
         {
             "id": "axonometrie",
@@ -223,17 +243,19 @@
             "icon": "🌆",
             "date": "2025-01-16",
             "description": "Faire un décor de jeu vidéo en axonométrie et le numériser sur Photoshop",
-            "format": "JPEG"
+            "format": "JPEG",
+            "groups": []
         },
         {
             "id": "logo",
             "module": "R208",
             "category": "Graphisme",
-            "title": "Logo [date indicative]",
+            "title": "Logo",
             "icon": "✒️",
             "date": "2026-02-20",
             "description": "Le logo sera constitué: d'une typo, d'un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
-            "format": "PDF A4 Paysage"
+            "format": "PDF A4 Paysage",
+            "groups": []
         },
         {
             "id": "bots",
@@ -244,6 +266,7 @@
             "date": "2026-02-03",
             "description": "Le logo sera constitué: d'une typo, d'un sigle (dessin à partir de la photo du tigre). Le logo sera créé en noir et blanc. Il doit fonctionner en noir et blanc.",
             "format": "PDF",
+            "groups": [],
             "attachments": [
                 {
                     "title": "Fichier ressource",
@@ -268,6 +291,7 @@
             "date": "2026-03-11",
             "description": "Choisir un festival dont la communication est bancale, puis proposer une nouvelle stratégie de communication complète pour ce festival.",
             "format": "PDF + Oral",
+            "groups": [],
             "attachments": [
                 {
                     "title": "Document de cadrage (NON OFFICIEL)",
@@ -285,7 +309,8 @@
             "icon": "🇬🇧",
             "date": "2026-02-23",
             "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": []
         },
         {
             "id": "ds_R215",
@@ -295,7 +320,8 @@
             "icon": "💻",
             "date": "2026-02-18",
             "description": "DS sur le protocole DHCP, adresses IP et masques, binaire <-> hexadécimal...",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "ds_R203",
@@ -305,7 +331,8 @@
             "icon": "🦻",
             "date": "2026-02-20",
             "description": "DS sur les notions d'ergonomie et d'accessibilité web vues en cours.",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "ds_R204",
@@ -315,7 +342,8 @@
             "icon": "🛰️",
             "date": "2026-02-20",
             "description": "DS sur les fake news, l'expression numérique, le piège des réseaux sociaux, etc.",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "ds_R212",
@@ -325,7 +353,8 @@
             "icon": "💻",
             "date": "2026-02-16",
             "description": "DS sur JQuery (date différente selon le groupe)",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "ds_R212_P2",
@@ -335,47 +364,52 @@
             "icon": "💻",
             "date": "2026-03-09",
             "description": "Partie 2 du DS sur JQuery (+ CSS Grid)",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "oral_COLOMB_P3_A2B2",
             "module": "R206",
             "category": "Expr. Comm",
-            "title": "Évènement marquant [A2 / B2]",
+            "title": "Évènement marquant",
             "icon": "🗣️",
             "date": "2026-03-09",
             "description": "Présentez un événement marquant qui a provoqué un changement dans votre vision du monde. Cet événement peut être réel ou imaginaire, mais il doit montrer clairement comment votre perception du monde a évolué.",
-            "format": "Oral (~3min)"
+            "format": "Oral (~3min)",
+            "groups": [ "A2", "B2" ]
         },
         {
             "id": "oral_lepage_A1B1",
             "module": "R201",
             "category": "Anglais",
-            "title": "Oral sur l'IA [A1 / B1]",
+            "title": "Oral sur l'IA",
             "icon": "🤖",
             "date": "2026-03-10",
             "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": [ "A1", "B1" ]
         },
         {
             "id": "oral_COLOMB_P3_A1B1",
             "module": "R206",
             "category": "Expr. Comm",
-            "title": "Évènement marquant [A1 / B1]",
+            "title": "Évènement marquant",
             "icon": "🗣️",
             "date": "2026-03-11",
             "description": "Présentez un événement marquant qui a provoqué un changement dans votre vision du monde. Cet événement peut être réel ou imaginaire, mais il doit montrer clairement comment votre perception du monde a évolué.",
-            "format": "Oral (~3min)"
+            "format": "Oral (~3min)",
+            "groups": [ "A1", "B1" ]
         },
         {
             "id": "oral_lepage_A2B2",
             "module": "R201",
             "category": "Anglais",
-            "title": "Oral sur l'IA [A2 / B2]",
+            "title": "Oral sur l'IA",
             "icon": "🤖",
             "date": "2026-03-16",
             "description": "Préparer un oral sur le sujet qu'on a eu avec Ben Amor, en anglais.",
-            "format": "Oral"
+            "format": "Oral",
+            "groups": [ "A2", "B2" ]
         },
         {
             "id": "ds_lepage",
@@ -385,7 +419,8 @@
             "icon": "🤖",
             "date": "2026-03-16",
             "description": "Détails à venir...",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         },
         {
             "id": "rapport_ergo",
@@ -395,7 +430,8 @@
             "icon": "🦻",
             "date": "2026-04-30",
             "description": "Faites l'audit de 3 sites initialement d'un point de vue utilisateur puis en intégrant les notions d'ergonomie vues en cours.",
-            "format": "PDF"
+            "format": "PDF",
+            "groups": []
         },
         {
             "id": "charte_graphique",
@@ -405,7 +441,8 @@
             "icon": "🦻",
             "date": "unknown",
             "description": "Faites une charte graphique à partir de la marque que vous avez créée lors des premières séances du module.",
-            "format": "PDF A4 Paysage"
+            "format": "PDF A4 Paysage",
+            "groups": []
         },
         {
             "id": "ds_Portfolio",
@@ -415,7 +452,8 @@
             "icon": "🪶",
             "date": "2026-03-19",
             "description": "Détails à venir...",
-            "format": "DS"
+            "format": "DS",
+            "groups": []
         }
     ]
 }
