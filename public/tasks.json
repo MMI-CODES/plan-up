@@ -454,6 +454,17 @@
             "description": "Détails à venir...",
             "format": "DS",
             "groups": []
+        }, 
+					  {
+            "id": "ds_comm_mars",
+            "module": "Communication",
+            "category": "Expr. Comm",
+            "title": "DS de Communication",
+            "icon": "🗣️",
+            "date": "2026-03-12",
+            "description": "Détails à venir...",
+            "format": "DS",
+            "groups": []
         }
     ]
 }
